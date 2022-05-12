@@ -60,6 +60,11 @@ body {
     margin: .3em 0;
 }
 
+.nav-item:hover{
+    background-color: #f39c12;
+    transition: all 0.3s ease-in;
+}
+
 .nav-item:nth-child(1){
     border-bottom: 2px solid #f39c12;
 }
@@ -178,6 +183,12 @@ body {
     border-radius: 1.5em;
     font-weight: bold;
     margin-right: 1rem;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #f39c12;
+    transition: all 0.3s ease-in;
 }
 
 .footer {
