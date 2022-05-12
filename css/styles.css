@@ -250,6 +250,10 @@ body {
     Styles pour les écrans de moins de 900px de large :
 */
 @media screen and (max-width:900px){
+    body{
+        overflow: initial;
+    }
+
     .header {
         position:static;
         width:auto;
@@ -293,6 +297,7 @@ body {
 
     .container__petit{
         height: 85%;
+        overflow: unset;
     }
     
 }
