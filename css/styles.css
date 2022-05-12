@@ -116,6 +116,15 @@ body {
     display: block;
 }
 
+.picture-desc{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1em;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+}
+
 .content-quote {
     border-top: 3px solid #ccc;
     margin-top: 2rem;
