@@ -141,10 +141,14 @@ body {
 
 .articles-container {
     margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .card {
     margin-bottom: 2rem;
+    width: 48%;
 }
 
 .card-title {
