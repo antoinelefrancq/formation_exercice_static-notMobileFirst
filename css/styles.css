@@ -261,6 +261,7 @@ body {
         width:96%;
         padding-left:0;
         flex-direction: column;
+        height: 100vh;
     }
 
     .page {
@@ -289,5 +290,10 @@ body {
     .nav-item-link {
         margin-bottom: 0;
     }
+
+    .container__petit{
+        height: 85%;
+    }
+    
 }
    
