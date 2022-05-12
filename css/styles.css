@@ -51,8 +51,17 @@ body {
     margin-top: 2rem;
 }
 
-.nav-item {
+.nav-item{
     font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 1em;
+    background-color: #cecece;
+    border-radius: .3em;
+    margin: .3em 0;
+}
+
+.nav-item:nth-child(1){
+    border-bottom: 2px solid #f39c12;
 }
 
 .page {
